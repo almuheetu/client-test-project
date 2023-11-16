@@ -15,3 +15,32 @@ li{
     list-style: none;
     display: inline-block;
 }
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+.container {
+	max-width: 1550px;
+}
+.logo-icon span {
+	font-size: 12px;
+}
+.logo-icon a {
+	color: #333;
+	font-size: 25px;
+}
+.logo-icon img {
+	width: 30%;
+	margin-left: 35px;
+}
+.relative {
+	position: absolute;
+	top: 8px;
+	left: -12px;
+}
+.space {
+	padding: 0;
+}
