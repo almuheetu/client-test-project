@@ -11,9 +11,15 @@
     align-items: center;
     justify-content: space-between;
 }
-li{
-    list-style: none;
-    display: inline-block;
+li {
+	list-style: none;
+	display: inline-block;
+	font-size: 18px;
+	margin-right: 50px;
+	/* color: #333; */
+}
+li a{
+    color: #333;
 }
 .container {
     width: 100%;
@@ -32,15 +38,88 @@ li{
 	color: #333;
 	font-size: 25px;
 }
+.\32 nd-logo {
+	font-size: 30px;
+}
 .logo-icon img {
 	width: 30%;
 	margin-left: 35px;
 }
 .relative {
 	position: absolute;
-	top: 8px;
-	left: -12px;
+	top: 20px;
+	left: 190px;
 }
 .space {
 	padding: 0;
+}
+.\32 nd-logo i {
+	font-size: 20px;
+	border: 3px solid #333;
+	border-radius: 50%;
+	padding: 6px;
+}
+li a i {
+	margin-left: 5px;
+}
+.small a i {
+	margin-right: 5px;
+	font-size: 13px;
+}
+.nav-menu {
+	box-shadow: 0 2px 2px rgba(63, 92, 110, .15);
+}
+.down-content {
+	font-size: 14px;
+}
+.content {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: 10px;
+}
+.containers {
+	width: 70%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #EBEBEB;
+	border-radius: 15px;
+	padding: 20px;
+}
+.left-content {
+	color: #E9990C;
+	border: 1px solid #E9990C;
+	border-radius: 50%;
+	padding: 10px;
+}
+.site-content {
+	border: 1px solid #0C93DF;
+	padding: 5px 20px;
+	border-radius: 20px;
+	color: #0C93DF;
+	text-align: center;
+}
+.agent {
+	color: #E9990C;
+}
+.date span {
+	font-weight: bold;
+}
+.date-time {
+	text-align: center;
+	color: #889094;
+}
+.date {
+	color: #889094;
+}
+.date span {
+	color: #333;
+}
+.title-section {
+	margin-top: 100px;
+}
+.color a {
+	color: #E9990C;
 }
