@@ -123,3 +123,6 @@ li a i {
 .color a {
 	color: #E9990C;
 }
+li a:hover {
+	color: #E9990C;
+}
